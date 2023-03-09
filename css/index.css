@@ -2,6 +2,7 @@
 .info {
     color: aquamarine;
 };
-table {
+.table {
     border: 2px solid;
+    border-color: blue;
 };
