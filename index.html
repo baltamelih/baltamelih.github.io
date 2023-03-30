@@ -88,7 +88,10 @@
         </div>
 
         <div class="container"> 
-              <button onclick="myButton()" class="speacialButton">İLETİŞİM</button>
+          <h3>Bir isim giriniz!</h3>
+          <input type="text" id = "textRandom"><br><br><br>
+
+              <button onclick="myButton()" class="speacialButton">Butona tıkla!</button>
             </div>
 
         </section>
@@ -183,7 +186,7 @@
 function myButton(){
    var myButton = document.getElementById("myButton");
    
-   alert("İletişim adresi :  melihbaltaa@icloud.com")
+   alert("Hoş geldin "+document.getElementById("textRandom").value);
 }
 
 
