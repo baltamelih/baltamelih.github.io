@@ -1,204 +1,68 @@
-<!DOCTYPE html>
-<html>
-    <head> 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Melih BALTA</title>
-         <script src="index.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.min.css'">
-        <link href="css/index.css" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    </head>
-    <style>
-        body {
-    background-color: antiquewhite;
-    background-repeat:no-repeat ;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
-    </style>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official mobile applications and support pages by Melih Balta.">
+  <title>Melih Balta — Mobile Apps</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
 <body>
-        
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">MELİH BALTA</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Feedback</a></li>
-        </ul>
-    </nav>
-  <div class="bg"></div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/">Melih Balta</a>
+      <nav class="nav-links">
+        <a href="/support/bottle-forge/">Support</a>
+        <a href="/privacy/bottle-forge/">Privacy</a>
+        <a href="/terms/bottle-forge/">Terms</a>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <section class="container hero">
+      <span class="badge">Independent Mobile Developer</span>
+      <h1>Simple apps. Strong ideas. Better experiences.</h1>
+      <p>
+        Official support, privacy and legal information for mobile applications
+        developed and published by Melih Balta.
+      </p>
+    </section>
 
-        <div class="container">
-        <div class="headertwo">
-        <div class="text">
-        <h1>Melih BALTA</h1>
-        <h4 style="color: rgb(106,210,195);">Developer</h4>
-        <p>Skilled multitasker with superior work ethic and good teamwork,
-            problem-solving and organizational skills. Willing to take on any
-            task to help team. Reliable and dedicated team player with
-            hardworking and resourceful approach.</p>
-        
-        </div>
-        <div class="icon">
-        <p>melihbaltaa@icloud.com &nbsp;<i class="bi bi-envelope" style="color: rgb(106,210,195);"></i></p>
-        <p>+90 544 235 0737 &nbsp;<i class="bi bi-telephone" style=" color: rgb(106,210,195);"></i></p>
-        <p>Maltepe/İstanbul &nbsp;<i class="bi bi-geo-alt" style=" color: rgb(106,210,195);"></i></p>
+    <section class="container grid">
+      <article class="card">
+        <h2>Bottle Forge</h2>
+        <p>
+          A strategic casual puzzle game about placing bottles, building clusters,
+          forging stronger tiers and chasing high scores.
+        </p>
+        <a class="button" href="/support/bottle-forge/">Open Support</a>
+      </article>
 
-        </div>
-        <div class="myimg">
-        <img src="images/melih.jpeg" alt="sixun's photo">
-        </div>
-        </div>
-        
-        <div class="triangle"></div>
-        
-        
-        <main>
-        <section class="leftpart">
-        <div class="Experience">
-        <div class="icon2">
-        <i class="bi bi-pc-display-horizontal"></i>
-        </div>
-        <h2>Experience</h2>
-        
-        <p class="small-title"><b>Projects</b></p>
-        <p><i></i></p>
-          <p><a href="https://baltamelih.github.io">github</a></p>
-        
-        <ul>
-        <li>ANTELEARN (Python,Django)</li>
-        </ul>
-        
-        <ul>
-        <li>Bilgisayar Mühendisliği</li>
-        </ul>
-      
-        </div>
+      <article class="card">
+        <h2>Privacy</h2>
+        <p>
+          Learn what information Bottle Forge uses through Firebase, analytics,
+          crash reporting and advertising services.
+        </p>
+        <a href="/privacy/bottle-forge/">Read Privacy Policy</a>
+      </article>
 
-        <div class="container"> 
-          <h3>Bir isim giriniz!</h3>
-          <input type="text" id = "textRandom"><br><br><br>
+      <article class="card">
+        <h2>Contact</h2>
+        <p>
+          For support, data requests or business communication, contact the developer.
+        </p>
+        <a href="mailto:melihbaltaa@icloud.com">melihbaltaa@icloud.com</a>
+      </article>
+    </section>
+  </main>
 
-              <button onclick="myButton()" class="speacialButton">Butona tıkla!</button>
-            </div>
-
-        </section>
-        <aside class="rightpart">
-        <div class="professional-skills">
-        <div class="icon2">
-        <i class="bi bi-wrench"></i>
-        </div>
-        <h2>Professional Skills</h2>
-        <div class="skill">
-        <ul>
-        <li class="js">Javascript</li>
-        <li class="css">CSS3</li>
-        <li class="html">HTML5</li>
-        <li class="py">Python</li>
-        </ul>
-        </div>
-        
-        <div class="education">
-            <div class="icon2">
-            <i class='fas fa-graduation-cap'></i>
-            </div>
-            <h2>Education</h2>
-            <p><b>Bilgisayar Mühendisliği</b></p>
-            <p>Marmara Üniversitesi</p>
-            <p class="duration">2020-2024</p>
-            <p><b>Yönetim Bilişim Sistemleri</b></p>
-            <p>İstanbul Üniversitesi
-            </p>
-            <p class="duration">2020-2024</p>
-        </div>
-        </aside>
-        </main>
-        </div>
-        
-
-
-
-        
-        <footer class="footer">
-            <div class="containerfooter">
-              <div class="row">
-                <div class="footer-col">
-                  <h4>Our Company</h4>
-                  <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Affiliate Program</a></li>
-                  </ul>          
-                 </div>
-                <div class="footer-col">
-                  <h4>Get Help</h4>
-                  <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Order Status</a></li>
-                    <li><a href="#">Payment Methods</a></li>
-                  </ul>          
-                 </div>
-                <div class="footer-col">
-                  <h4>Online Shop</h4>
-                  <ul>
-                    <li><a href="#">Watch</a></li>
-                    <li><a href="#">SmartPhone</a></li>
-                    <li><a href="#">Laptop</a></li>
-                    <li><a href="#">Electronics</a></li>
-                  </ul>          
-                 </div>
-                <div class="footer-col">
-                  <h4>Follow Us</h4>
-                  <div class="social-links">
-                    <a href="https://twitter.com/baltamelih1">
-                      <span class="fab fa-twitter"></span>
-                      <span class="fab fa-twitter"></span>
-                    </a>
-                    <a href="https://www.instagram.com/baltamelih/">
-                      <span class="fab fa-instagram"></span>
-                      <span class="fab fa-instagram"></span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/melih-balta-b46b75216/">
-                      <span class="fab fa-linkedin-in"></span>
-                      <span class="fab fa-linkedin-in"></span>
-                    </a>
-                  </div>    
-                 </div>
-              </div>
-            </div>
-          </footer>
-
-<script>
-function myButton(){
-   var myButton = document.getElementById("myButton");
-   
-   alert("Hoş geldin "+document.getElementById("textRandom").value);
-}
-
-
- 
-
-</script>
-
-
-
+  <footer>
+    <div class="container">
+      © 2026 Melih Balta. All rights reserved.
+    </div>
+  </footer>
 </body>
-
-
-
-
 </html>
+
